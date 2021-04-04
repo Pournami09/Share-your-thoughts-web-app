@@ -1,0 +1,88 @@
+.linkTo{
+    margin-bottom: 10rem;
+    color: #3b6978;
+    font-size: 0.9rem;
+}
+
+.type-here{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-container{
+    /* background-color: #e7dfd5; */
+    background-color: #fde8cd;
+    padding-top: 100px;
+    align-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 60%;
+    margin-bottom: 5rem;
+    
+}
+
+#msg{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1028px) {
+    #msg{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+  }
+
+.top-cloud{
+    position: absolute;
+    right:280px;
+    top: 50px;
+    margin-bottom: 50px;
+    
+}
+.bottom-cloud{
+    position: absolute;
+    left: 280px;
+    top: 200px;
+}
+.name{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-bottom: 0px;
+    /* color: #3b6978; */
+    color: #433520;
+  
+    
+}
+
+#shareBtn {
+    
+	box-shadow: 0px 0px 0px -50px #276873;
+	/* background-color:#599bb3; */
+    background-color: #00917c;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:18px;
+	padding:5px 100px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+#shareBtn:hover {
+	background-color:#408c99;
+    /* background-color: #00917c; */
+}
+#shareBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.sign-in-btn{
+    border: #433520;
+    border-width: 1rem;
+    background: #fde8cd;
+    border-style: solid;
+}
